@@ -17,6 +17,7 @@ describe("Rock-Paper-Scissors", function() {
         player1.picks('rock');
         player2.picks('scissors');
         expect(game.winner()).toBe(player1);
+        expect(game.victoryStatement).toEqual("Alex's rock crushes Bob's paper.")
 
       });
 
