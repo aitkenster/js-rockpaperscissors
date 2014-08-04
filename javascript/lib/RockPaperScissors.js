@@ -13,5 +13,10 @@ function Game(player1, player2) {
 };
 
 Game.prototype.winner = function() {
-  return this.player1;
+	if (this.player1.pick == this.player2.pick) {
+		return null;
+	}
+	else {
+  return this.player1};
+
 };
