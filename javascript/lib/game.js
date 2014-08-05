@@ -4,12 +4,13 @@ function Game(player1, player2) {
 };
 
 Game.prototype.PAIRS = {
-	rock:    	{ scissors: 'crushes',lizard: 'mashes'			},
-  paper:    { spock: 'disproves', rock: "cover"        	},
-  scissors: { paper: 'cuts', 			lizard: "decapitates" },
-  lizard:  	{ spock: 'poisons', 	paper: "eats"         },
-  spock:    { rock: 'vaporises', 	scissors: "smashes"  	}
+	rock:    	{ scissors: 'blunts',			lizard: 'mashes'			},
+  paper:    { spock: 		'disproves', 	rock: "covers"        },
+  scissors: { paper: 		'cuts', 			lizard: "decapitates" },
+  lizard:  	{ spock: 		'poisons', 		paper: "eats"         },
+  spock:    { rock: 		'vaporises', 	scissors: "smashes"  	}
 }
+
 
 Game.prototype._isSamePick = function() {
 	return this.player1.pick === this.player2.pick;
