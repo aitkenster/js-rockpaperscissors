@@ -1,26 +1,13 @@
-function Player(name) {
-  // 'initialize' method goes here!
-  this.name = name;
-};
-
-Player.prototype.picks = function(pick) {
-  this.pick = pick;
-};
-
-// Player.prototype.defeats = function(opponent) {
-// 	return Game.prototype.PAIRS[this.pick]["beats"].indexOf(opponent.pick)!== -1 
-// }
-
 function Game(player1, player2) {
   this.player1 = player1;
   this.player2 = player2;
 };
 
 Game.prototype.PAIRS = {
-	rock:    	{ scissors: 'crushes',lizard: 'doing mash'	},
+	rock:    	{ scissors: 'crushes',lizard: 'mashes'			},
   paper:    { spock: 'disproves', rock: "cover"        	},
-  scissors: { paper: 'cuts', 			lizard: "decapitates"    	},
-  lizard:  	{ spock: 'poisons', 	paper: "eats"          	},
+  scissors: { paper: 'cuts', 			lizard: "decapitates" },
+  lizard:  	{ spock: 'poisons', 	paper: "eats"         },
   spock:    { rock: 'vaporises', 	scissors: "smashes"  	}
 }
 
