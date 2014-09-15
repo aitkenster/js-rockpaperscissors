@@ -7,6 +7,7 @@
 		player2.randomPick(this.randomPick);
 
 		$('#list').prepend("<li><h2>" + game.victoryStatement() + "</h2></li>");
+		$('li:gt(4)').remove();
 	})
 
 })
