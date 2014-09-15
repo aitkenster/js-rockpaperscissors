@@ -1,17 +1,18 @@
 js-rockpaperscissors
 ====================
 
-Rock Paper Scissors in JavaScript
+A game of Rock-Paper-Scissors-Lizard-Spock in JavaScript.
 
 Screenshot:
 ![](images/screenshot.png)
 
-
-###Specification
-
 ###Technologies used
 
-+
++ Javascript
++ JQuery
++ Jasmine
++ CSS
++ HTML
 
 ###How to set it up
 
@@ -21,18 +22,8 @@ git clone https://github.com/aitkenster/js-rockpaperscissors.git
 
 ###How to run it
 
-```sh
-cd XXXXX
-
-```
+Open _index.html_ in the browser
 
 ###How to test it
 
-```sh
-cd XXXXX
-rspec
-``` 
-
-###Future Improvements
-
-+
+Open _SpecRunner.html_ in the browser
