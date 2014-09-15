@@ -1,5 +1,5 @@
-Javascript Rock-Paper-Scissors-Lizard-Spock
-===========================================
+Rock-Paper-Scissors-Lizard-Spock
+================================
 
 A game of Rock-Paper-Scissors-Lizard-Spock in JavaScript.
 
