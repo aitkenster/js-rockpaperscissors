@@ -202,7 +202,7 @@ describe("Rock-Paper-Scissors", function() {
     it ("should return the winner's name and pick, the verb and the loser's name and pick", function(){
       player1.picks('scissors');
       player2.picks('rock');
-      expect(game.victoryStatement()).toEqual("Bob's rock crushes Alex's scissors")
+      expect(game.victoryStatement()).toEqual("Bob's rock blunts Alex's scissors")
     });
   });
 
